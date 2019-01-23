@@ -1,0 +1,6 @@
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.DOMINIO\bin\Debug\DesafioGlobo.DOMINIO.dll
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.DOMINIO\bin\Debug\DesafioGlobo.DOMINIO.pdb
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.DOMINIO\obj\Debug\DesafioGlobo.DOMINIO.csproj.CoreCompileInputs.cache
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.DOMINIO\obj\Debug\DesafioGlobo.DOMINIO.dll
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.DOMINIO\obj\Debug\DesafioGlobo.DOMINIO.pdb
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.DOMINIO\obj\Debug\DesafioGlobo.DOMINIO.csprojAssemblyReference.cache

@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="DesafioGlobo.Web.Principal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>.: Sistema Controle de Emissoras :.</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- coloca o icone no navegador -->
+    <link rel="icon" href="Images/icon.ico" />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Scripts/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link href="~/Scripts/css/sb-admin.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link href="~/Scripts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="../Scripts/js/jquery-2.2.4.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../Scripts/js/bootstrap.min.js"></script>
+
+    <!--Chosen Autocomplete -->
+    <link href="/Scripts/js/plugins/chosen_Autocomplete/chosen.min.css" rel="stylesheet" />
+
+    <!--Chosen Autocomplete -->
+    <script src="/Scripts/js/plugins/chosen_Autocomplete/chosen.jquery.min.js"></script>
+    <!--Mask Input -->
+    <script src="../Scripts/js/plugins/mask/jquery.mask.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".chosen-select").chosen({ width: '100%', no_results_text: "Nenhum resultado foi encontrado!" });
+            $(".chosen-single").css("height", "35px");
+            $(".chosen-single span, .chosen-single div b").css("margin-top", "5px");
+
+            $.fn.MensagemModal = function (tipo, mensagem) {
+                var css = "alert alert-info";
+
+                if (tipo == 1)
+                    css = "alert alert-success";
+                if (tipo == 2)
+                    css = "alert alert-warning";
+                if (tipo == 3)
+                    css = "alert alert-danger";
+
+                $("#DivMensagemModal").removeClass();
+                $("#DivMensagemModal").addClass(css);
+                $("#MensagemModal").html(mensagem);
+                $("#ModalMensagemGenerica").modal('toggle');
+            }
+
+        });
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+            <asp:ScriptManager runat="server" ID="ScriptManagerPage"></asp:ScriptManager>
+            <div id="Master_Body" runat="server">
+                <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                  <asp:Image ID="imgLogo" runat="server" ImageUrl="Images/globo.png" Width="80px" style="margin-left:50px;" />
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul id="MenuCadastros" runat="server" class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="../Views/CadEmissora.aspx"><i class="fa fa-fw fa-list-alt"></i> Cadastro de Emissoras</a>
+                    </li>
+                    <li>
+                        <a href="../Views/CadAudiencia.aspx"><i class="fa fa-line-chart"></i> Cadastro de Audiências</a>
+                    </li>
+                    <li>
+                        <a href="../Views/CadRelatorio.aspx"><i class="fa fa-file-text"></i> Consultar Relatório</a>
+                    </li>
+                </ul>
+            </div>  
+        </nav>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="modal fade" id="ModalMensagemGenerica" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Globo Central de Produções</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div id="DivMensagemModal" class="alert alert-success">
+                            <span id="MensagemModal"></span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

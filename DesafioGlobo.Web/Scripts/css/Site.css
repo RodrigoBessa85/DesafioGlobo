@@ -1,0 +1,48 @@
+﻿/* Módulo */
+.moduleHeader {
+    background-image: url('../images/Header_Footer.png');
+    position: relative;
+    border-radius: 50px 50px 0 0;
+    text-align: center;
+    width: 400px;
+    margin: 0px auto;
+    top: 60px;
+    border-bottom: 5px solid #CCCCCC;
+    /*padding: 15px 0;*/
+    min-height: 60px;
+}
+.moduleContent {
+    background-color: #2AB9E9;
+    background-image: url('../images/content_login.png');
+    position: relative;
+    text-align: center;
+    width: 400px;
+    margin: 0px auto;
+    top: 60px;
+}
+.moduleFooter {
+    background-color: #B4C4DD;
+    background-image: url('../images/Header_Footer.png');
+    position: relative;
+    border-radius: 0 0 50px 50px;
+    text-align: center;
+    width: 400px;
+    margin: 0px auto;
+    min-height: 50px;
+    top: 60px;
+    border-top: 5px solid #CCCCCC;
+    min-height: 60px;
+}
+.moduleFooter h3 {
+    text-align: center;
+    font: 20px Eras Bold ITC, Myriad Pro, arial;
+    /*font-weight: bold;*/
+    position: absolute;
+    top: 2px;
+    left: 112px;
+    /*color: #0D3F79;*/
+    color: #f2f2f2;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+/* FIM Módulo */

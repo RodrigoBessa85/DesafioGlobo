@@ -1,0 +1,13 @@
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\bin\Debug\DesafioGlobo.NEGOCIOS.dll
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\bin\Debug\DesafioGlobo.NEGOCIOS.pdb
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\bin\Debug\DesafioGlobo.DAO.dll
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\bin\Debug\DesafioGlobo.DOMINIO.dll
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\bin\Debug\DesafioGlobo.UTIL.dll
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\bin\Debug\DesafioGlobo.DAO.pdb
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\bin\Debug\DesafioGlobo.DOMINIO.pdb
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\bin\Debug\DesafioGlobo.UTIL.pdb
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\obj\Debug\DesafioGlobo.NEGOCIOS.csprojAssemblyReference.cache
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\obj\Debug\DesafioGlobo.NEGOCIOS.csproj.CoreCompileInputs.cache
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\obj\Debug\DesafioGlobo.NEGOCIOS.csproj.CopyComplete
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\obj\Debug\DesafioGlobo.NEGOCIOS.dll
+C:\META GLOBO\DesafioGlobo\DesafioGlobo.NEGOCIOS\obj\Debug\DesafioGlobo.NEGOCIOS.pdb
